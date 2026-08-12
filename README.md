@@ -1,24 +1,25 @@
-# StudyAssist 📚
+# StudyAssist 📚🤖
 
-A Flutter-based learning application designed to make studying more structured, accessible, and productive.
+> A Flutter learning application focused on making study workflows more organized, accessible, and productive.
+
+StudyAssist is a mobile project exploring how thoughtful UX, application architecture, and intelligent features can improve the way students learn, revise, and manage study sessions.
 
 ## ✨ Highlights
 
-- 📱 Cross-platform Flutter application
-- 🧠 Structured learning experience
-- 🔌 Dedicated backend integration
-- 📖 Content and study resources
+- 📚 Structured study workflows
+- ⏱️ Focus-oriented study sessions
+- 📊 Progress-oriented learning experience
+- 🤖 Foundation for AI-assisted study features
+- 📱 Cross-platform Flutter architecture
 - 🧩 Modular application structure
 
-## 🛠️ Tech Stack
+## 🧰 Technology
 
 - **Flutter / Dart** — mobile application
-- **Backend** — application API and data services
-- **GitHub** — source control and collaboration
+- **Backend services** — application data and APIs
+- **Git / GitHub** — source control and collaboration
 
-## 📁 Architecture
-
-The repository is organized around the Flutter application, backend services, reusable assets, documentation, and application source code.
+## 🏗️ Architecture
 
 ```text
 StudyAssist/
@@ -30,7 +31,18 @@ StudyAssist/
 └── pubspec.yaml   # Flutter dependencies
 ```
 
-## 🚀 Run Locally
+The project is organized to keep product features, infrastructure, reusable assets, and documentation understandable as the application evolves.
+
+## 🚀 Getting started
+
+### Prerequisites
+
+- Flutter SDK
+- Dart SDK
+- Android Studio or another Flutter-compatible IDE
+- Git
+
+### Run locally
 
 ```bash
 git clone https://github.com/NehemiahAndrew/StudyAssist.git
@@ -39,12 +51,30 @@ flutter pub get
 flutter run
 ```
 
-## 🎯 Why I Built It
+### Test
 
-StudyAssist is part of my broader work building practical software products rather than isolated tutorial projects. The goal is to combine good UX, application architecture, and useful learning functionality in one product.
+```bash
+flutter test
+```
 
-## 👤 Author
+## 🔐 Security & repository hygiene
 
-**Nehemiah Andrew** — Software Developer & Cybersecurity Builder
+Do not commit API keys, database credentials, signing keys, `.env` files, or other secrets. The repository `.gitignore` excludes common Flutter-generated files, IDE metadata, local configuration, and sensitive key material.
+
+## 🛣️ Roadmap
+
+- [ ] Expand automated test coverage
+- [ ] Improve learning analytics
+- [ ] Expand AI-assisted learning workflows
+- [ ] Improve offline support
+- [ ] Add CI quality checks
+
+## 🎯 Why I built it
+
+StudyAssist is part of my broader work building practical software products rather than isolated tutorial projects. The goal is to combine good UX, maintainable architecture, and useful learning functionality in one product.
+
+## 👨‍💻 Author
+
+**Nehemiah Andrew** — Software Engineer • Cybersecurity • AI • Flutter
 
 [GitHub](https://github.com/NehemiahAndrew)
