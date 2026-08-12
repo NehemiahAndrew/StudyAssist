@@ -1,4 +1,54 @@
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
-branch_structure.json
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+build/
+coverage/
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# macOS
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Web / generated tooling
+node_modules/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
